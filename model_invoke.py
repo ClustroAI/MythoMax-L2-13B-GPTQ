@@ -3,10 +3,10 @@ import json
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model_name_or_path = "TheBloke/MythoMax-L2-13B-GPTQ"
-revision = "main"
+revision = "gptq-8bit-128g-actorder_True"
+
 # To use a different branch, change revision
 # For example: revision="main"
-
 model = AutoModelForCausalLM.from_pretrained(model_name_or_path,
                                              device_map="auto",
                                              trust_remote_code=False,
