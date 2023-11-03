@@ -1,5 +1,4 @@
 transformers>=4.32.0
 optimum>=1.12.0
 #auto-gptq @ git+https://github.com/PanQiWei/AutoGPTQ@ef442d9f70c50a9c1d9f2d4aa8622d1b89c83ea2
-#auto-gptq @ https://github.com/PanQiWei/AutoGPTQ/archive/refs/tags/v0.4.2.tar.gz
-auto-gptq
+auto-gptq @ https://github.com/PanQiWei/AutoGPTQ/archive/refs/tags/v0.5.0.zip
