@@ -1,2 +1,3 @@
-optimum
+optimum==1.13.3
+transformers==4.34.1
 auto-gptq @ https://github.com/PanQiWei/AutoGPTQ/archive/refs/tags/v0.4.2.tar.gz
